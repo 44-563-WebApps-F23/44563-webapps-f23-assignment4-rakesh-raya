@@ -1,0 +1,29 @@
+.speech{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: small;
+color: black;
+}
+
+.direction{
+font-family: Arial, Helvetica, sans-serif;
+font-size: smaller;
+color: black;
+background-color: rgb(207, 233, 255);
+}
+
+.direction:hover{
+    color: rgb(56, 235, 56);
+    background-color: rgb(232, 154, 101);
+}
+
+.nora{
+color: rgb(183, 183, 14);
+}
+
+.rank{
+color:rgb(13, 124, 220)
+}
+
+.helmer{
+color: rgb(222, 45, 45);
+}
