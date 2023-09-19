@@ -27,3 +27,23 @@ color:rgb(13, 124, 220)
 .helmer{
 color: rgb(222, 45, 45);
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #f22e2e;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    color:rgb(61, 45, 236);
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
