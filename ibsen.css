@@ -1,31 +1,41 @@
-.speech{
-font-family:Verdana, Geneva, Tahoma, sans-serif;
-font-size: small;
-color: black;
+.speech {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color: black;
 }
 
-.direction{
-font-family: Arial, Helvetica, sans-serif;
-font-size: smaller;
-color: black;
-background-color: rgb(207, 233, 255);
+.direction {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    color: black;
+    background-color: rgb(207, 233, 255);
 }
 
-.direction:hover{
+.direction:hover {
     color: rgb(56, 235, 56);
     background-color: rgb(232, 154, 101);
 }
 
-.nora{
-color: rgb(183, 183, 14);
+.nora {
+    color: rgb(183, 183, 14);
 }
 
-.rank{
-color:rgb(13, 124, 220)
+.nora:hover {
+    text-shadow:1px 1px 1px black;
+    border: 2px solid #e74c3c;
 }
 
-.helmer{
-color: rgb(222, 45, 45);
+.rank {
+    color: rgb(13, 124, 220);
+}
+
+.helmer {
+    color: rgb(222, 45, 45);
+}
+
+.helmer:hover {
+    text-shadow:  1px 1px 1px #000;
+    border: 2px solid #1ccc36;
 }
 
 table {
@@ -34,14 +44,15 @@ table {
     text-align: center;
 }
 
-th, td {
+th,
+td {
     border: 1px solid #f22e2e;
     padding: 8px;
 }
 
 th {
     background-color: #f2f2f2;
-    color:rgb(61, 45, 236);
+    color: rgb(61, 45, 236);
 }
 
 tr:nth-child(even) {
