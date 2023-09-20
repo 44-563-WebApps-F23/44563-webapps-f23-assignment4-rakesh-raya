@@ -29,6 +29,11 @@
     color: rgb(13, 124, 220);
 }
 
+.rank:hover {
+    text-shadow:  1px 1px 1px #000;
+    border: 2px solid #d923a2;
+}
+
 .helmer {
     color: rgb(222, 45, 45);
 }
